@@ -20,13 +20,16 @@ List of widgets, you can reuse in your project.
 
 ### Toast
 Light-weight solution for Toast messages with a simple animation. It has two durations: short one and long one, and has an abbility to be shown in there different screen positions: bottom, center, top.
+
 ![](resources/toast.gif)
 
 ### Full Screen Progress
 Overlay that will show a darkened background with a progress above your screen (without adding to widgets tree).
+
 ![](resources/full_screen_progress.gif)
 
 ### Progress Button
 Simple button, that animates after a user taps. Could be used as a non-blocking progress animation.
+
 ![](resources/progress_button.gif)
 
