@@ -12,8 +12,17 @@ Light-weight solution for implementing BLoC pattern. It provides a wrapper for a
 Package for our extensions to simplify and speed-up development
 
 ### UI Extensions
+
+#####  DesignToScreenMapper
 Solution to simplify a life working with design in Zeplin, where all values are provided in `dp` (or `pt`). This extension will help you write responsive UI according to design.
-Example of usage: `height: 24.fromDp()` 
+
+Example of usage: `height: 24.fromDp()`
+
+##### StringFormatter
+Solution for strings formatting. Works with '%s' placeholder. Supports multiple placeholders and considers their positions. The extension uses an array of dynamics as an argument and casts each element `.toString()`.
+
+Example of usage: `'Some %s with % placeholders'.format(['string', 2])`.  
+Result: `Some string with 2 placeholders`.
 
 ## Widgets
 List of widgets, you can reuse in your project.
