@@ -21,7 +21,7 @@ Example of usage: `height: 24.fromDp()`
 ##### StringFormatter
 Solution for strings formatting. Works with '%s' placeholder. Supports multiple placeholders and considers their positions. The extension uses an array of dynamics as an argument and casts each element `.toString()`.
 
-Example of usage: `'Some %s with % placeholders'.format(['string', 2])`.  
+Example of usage: `'Some %s with %s placeholders'.format(['string', 2])`.  
 Result: `Some string with 2 placeholders`.
 
 ## Widgets
