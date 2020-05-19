@@ -18,6 +18,8 @@ Solution to simplify a life working with design in Zeplin, where all values are 
 
 Example of usage: `height: 24.fromDp()`
 
+### String Extensions
+
 ##### StringFormatter
 Solution for strings formatting. Works with '%s' placeholder. Supports multiple placeholders and considers their positions. The extension uses an array of dynamics as an argument and casts each element `.toString()`.
 
